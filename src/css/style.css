@@ -1,0 +1,493 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header-menu {
+    position: relative;
+    height: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu-background {
+    background-color: #34393d;
+}
+
+.header-menu-title {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 0.7rem;
+}
+
+.header-menu-btn {
+    padding: 0.7rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a2024;
+}
+
+.header-menu-btn-line {
+    display: block;
+    width: 0.8rem;
+    margin: 0.2rem 0 0;
+}
+
+.header-menu-navbar {
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu-navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu-navbar-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.46rem;
+    color: #fff;
+
+}
+
+.header-navbar {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    background-color: #fafafa;
+    z-index: 10;
+}
+
+.header-navbar-item {
+    padding: 1rem 6rem 1rem 2rem;
+    border: 0.01rem solid #f0f0f0;
+}
+
+.header-navbar-item:hover {
+    background-color: #f5f5f5;
+}
+
+.header-navbar-item-link {
+    font-size: 0.8rem;
+    color: #444;
+    text-decoration: none;
+}
+
+.main-background {
+    background: url("../img/1200/header-fon.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.main-section {
+    min-height: 12.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-title {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    color: #fff;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+}
+.main-subtitle {
+    font-size: 0.8rem;
+    color: #a6d6e0;
+    padding-top: 0.4rem;
+}
+
+.menu-food-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-food-categories-item {
+    position: relative;
+    box-sizing: border-box;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.2em;
+}
+
+.menu-food-categories-item:before {
+    position: absolute;
+    right: 0;
+    content: '>';
+    font-size: 0.91rem;
+    background-color: #add9ae;
+    color: #fff;
+    padding: 1.7rem 1.65rem;
+}
+
+.menu-food-categories-item-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.pizza-delivery-background {
+    background: url("../img/1200/Pizza delivery fon.jpg") no-repeat 0 -14rem;
+    background-size: cover;
+}
+
+.salad-background {
+    background: url("../img/1200/UA_UX Salads fon.jpg") no-repeat 0 -9rem;
+    background-size: cover;
+}
+
+.desserts-background {
+    background: url("../img/1200/Desserts fon.jpg") no-repeat 0 -2rem;
+    background-size: cover;
+}
+
+.price-list {
+    margin-top: 1.6rem;
+}
+
+.price-list-head-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.price-list-head-title {
+
+}
+
+.price-list-head-logo {
+    display: none;
+}
+
+.price-list-head {
+    font-size: 1rem;
+    color: #3f4043;
+    text-transform: uppercase;
+}
+
+.price-list-subhead {
+    font-size: 1rem;
+    color: #cbcdce;
+
+}
+
+.price-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-list-part-head {
+    box-sizing: border-box;
+    margin-top: 0.63rem;
+    padding: 0.8rem 1rem;
+    background-color: #3d3e41;
+    color: #acd9ad;
+    text-transform: uppercase;
+}
+
+.price-list-part-head-green {
+    background-color: #add9ae;
+    color: #fff;
+}
+
+.price-list-category {
+    padding: 0 1rem;
+}
+
+.price-list-category-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-list-category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-list-category-title {
+    margin: 0.8rem 0;
+    font-size: 0.99rem;
+    color: #3f4043;
+    text-transform: uppercase;
+}
+
+.price-list-category-img {
+    background-image: url('../img/1200/css_sprites.png');
+}
+
+.price-list-category-waffle{
+    width: 49px; height: 48px;
+    background-position: -10px -190px;
+    transform: scale(0.5) translateX(1.5rem);
+}
+.price-list-category-vine{
+    width: 27px; height: 48px;
+    background-position: -79px -190px;
+    transform: scale(0.5);
+}
+
+.price-list-category-coffee {
+    width: 61px; height: 42px;
+    background-position: -10px -128px;
+    transform: scale(0.5) translateX(2rem);
+}
+
+.price-list-category-beer {
+    width: 43px; height: 42px;
+    background-position:-91px -128px;
+    transform: scale(0.5) translateX(1rem);
+}
+
+.price-list-category-item-head {
+    position: relative;
+    font-size: 0.8rem;
+    color: #3f4043;
+    padding-left: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.price-list-category-item {
+    position: relative;
+    margin-bottom: 0.6rem;
+}
+
+.price-list-category-item-head:before {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    content: '●';
+    display: inline-block;
+    font-size: 0.5rem;
+    color: #3f4043;
+}
+
+.price-list-category-item-description {
+    font-size: 0.7rem;
+    color: #3f4043;
+}
+
+.price-list-category-item-price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #3f4043;
+}
+
+.price-list-category-item-price:before {
+    content: '$';
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #3f4043;
+}
+
+.footer-container {
+    height: 4rem;
+    background-color: #add9ae;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    html {
+        font-size: 32px;
+    }
+    .price-list-category-waffle {
+        width: 1.88rem;
+        height: 1.88rem;
+        background-position: -6px -185px;
+        transform: scale(0.8);
+    }
+    .price-list-category-vine {
+        width: 1.88rem;
+        height: 1.88rem;
+        background-position: -63px -185px;
+        transform: scale(0.8);
+    }
+    .price-list-category-coffee {
+        width: 1.88rem;
+        height: 1.88rem;
+        background-position: -12px -122px;
+        transform: scale(0.8);
+    }
+    .price-list-category-beer {
+        width: 1.88rem;
+        height: 1.88rem;
+        background-position: -80px -120px;
+        transform: scale(0.8);
+    }
+}
+
+@media (min-width: 980px) {
+    .container {
+        width: 920px;
+    }
+
+    .header-menu-title {
+        display: none;
+    }
+
+    .header-menu-btn {
+        display: none;
+    }
+
+    .header-menu {
+        min-height: 3.03rem;
+    }
+
+    .header-menu-navbar {
+        display: flex;
+    }
+
+    .main-section {
+        min-height: 16.5628rem;
+    }
+
+    .main-title {
+        font-size: 1.68rem;
+        line-height: normal;
+        padding: 1.68em 0 0;
+    }
+
+    .main-subtitle {
+        font-size: 1rem;
+        padding: 0;
+        margin-top: 2rem;
+    }
+
+    .menu-food-categories {
+        flex-direction: row;
+    }
+
+    .menu-food-categories-item {
+        padding: 0;
+        flex-grow: 1;
+        height: 10.2rem;
+        width: 11rem;
+        margin: 0;
+    }
+
+    .menu-food-categories-item:before {
+        display: none;
+    }
+
+    .price-list-container {
+        flex-direction: row;
+    }
+
+    .price-list-head-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pizza-delivery-background {
+        background-position: 0 0;
+    }
+
+    .salad-background {
+        background-position: 0 0;
+    }
+
+    .desserts-background {
+        background-position: 0 0;
+    }
+
+    .price-list-head-logo {
+        display: block;
+    }
+
+    .price-list-category-item-head {
+        font-size: 0.7rem;
+    }
+
+    .price-list-category-item-description {
+        font-size: 0.5rem;
+    }
+
+    .price-list-category-item-price {
+        font-size: 0.7rem;
+    }
+
+    .price-list-category-item-price:before {
+        font-size: 0.7rem;
+    }
+
+    .price-list-category-title {
+        font-size: 0.7rem;
+    }
+
+    .footer-text {
+        font-size: 0.56rem;
+    }
+
+    .footer-logo {
+        display: block;
+    }
+
+    .footer-container {
+        height: 3rem;
+    }
+
+    .footer-incide-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-enter-flag {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1125px;
+    }
+
+    .pizza-delivery-background {
+        background-position: 0 -5rem;
+    }
+
+    .salad-background {
+        background-position: 0 -5rem;
+    }
+
+    .desserts-background {
+        background-position: 0 -1rem;
+    }
+}
