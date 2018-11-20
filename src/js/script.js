@@ -11,7 +11,6 @@ $(document).ready(function () {
             $('.header-menu-btn').removeClass('active');
             $('.header-navbar').fadeOut();
         }
-
     });
     function doingX(lines) {
         $(lines[1]).css({opacity:0});
