@@ -8,10 +8,13 @@ $(document).ready(function () {
             $('.header-navbar').fadeIn();
         } else {
             doingBurger($('.header-menu-btn-line'));
+
+            
             $('.header-menu-btn').removeClass('active');
             $('.header-navbar').fadeOut();
         }
     });
+
     function doingX(lines) {
         $(lines[1]).css({opacity:0});
         $(lines[0]).css({transformOrigin:'top right',transform:'rotate(-45deg) translateY(-0.1rem)', transition:'transform 0.3s'});

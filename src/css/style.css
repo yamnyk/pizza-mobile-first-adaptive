@@ -42,13 +42,14 @@ body {
 .header-menu-btn-line {
     display: block;
     width: 0.8rem;
+    height: 0.1rem;
+    background-color: #fff;
     margin: 0.2rem 0 0;
 }
 
 .header-menu-navbar {
     width: 100%;
     display: none;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -109,6 +110,11 @@ body {
     padding-top: 0.8rem;
     padding-left: 0.8rem;
 }
+
+.main-title:nth-last-of-type(2) {
+    padding-top: 0;
+}
+
 .main-subtitle {
     font-size: 0.8rem;
     color: #a6d6e0;
@@ -285,15 +291,18 @@ body {
     color: #3f4043;
 }
 
+.price-list-category-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .price-list-category-item-description {
     font-size: 0.7rem;
     color: #3f4043;
 }
 
 .price-list-category-item-price {
-    position: absolute;
-    right: 0;
-    top: 0;
     font-size: 0.85rem;
     font-weight: 700;
     color: #3f4043;
@@ -326,6 +335,7 @@ body {
     html {
         font-size: 32px;
     }
+
     .price-list-category-waffle {
         width: 1.88rem;
         height: 1.88rem;
