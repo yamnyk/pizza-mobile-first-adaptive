@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('.header-navbar').hide();
 
     $('.header-menu-btn').click(function (e) {
-        if (!$('.header-menu-btn')[0].className.includes('active')) {
+        if (!$('.header-menu-btn')[0].hasClass('active')) {
             doingX($('.header-menu-btn-line'));
             $('.header-menu-btn').addClass('active');
             $('.header-navbar').fadeIn();
